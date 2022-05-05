@@ -1,0 +1,30 @@
+{
+  "name": "react-project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "glogin": "clasp login",
+    "glogout": "clasp logout",
+    "gpull": "clasp pull",
+    "gpush": "clasp push",
+    "gstart": "clasp push --watch",
+    "gcreate": "clasp create --title react-project --rootDir ./apps-script",
+    "gclone": "clasp clone 1mxmN6hQoaqrfCb429n6ynp9Yc4zVKkdoUA9KSk_t5sfOl4AYxVb7XH71 --rootDir ./apps-script",
+    "start": "parcel src/index.html --dist-dir ./apps-script",
+    "bulid": "parcel build src/index.html --dist-dir ./apps-script"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.5.0",
+    "@types/google-apps-script": "^1.0.46",
+    "@types/google-apps-script-oauth2": "^38.0.0",
+    "parcel": "^2.5.0"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0"
+  }
+}
